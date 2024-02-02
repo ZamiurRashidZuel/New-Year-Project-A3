@@ -1,0 +1,368 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+
+}
+.image{
+    width:1320px;
+    height: 600px;
+   
+    position: relative;
+}
+img{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 50px;
+    /* color: #290050; */
+    color: #fafafa;
+    font-weight: 800;
+    
+
+}
+.happy{
+    font-size: 30px;
+     font-weight: 800;
+     margin-bottom: 20px;
+}
+.discount{
+    margin-top: 80px;
+    
+    text-align: center;
+}
+.new-year{
+    width: 803px;
+    height: 806px;
+    margin-top: 60px;
+}
+
+/* discount section */
+
+
+/* .discount-content{
+    margin-bottom: 50px;
+
+} */
+.persentige{
+    color: #FF0000;
+    font-weight: 800;
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-family: sans-serif;
+}
+.dis-para{
+    margin-bottom: 20px;
+    color: #FF0000;
+    font-weight: 400;
+    font-size: 16px;
+}
+.categories{
+    color: #070211;
+    font-weight: 800;
+    
+
+}
+
+/* mid night party  section*/
+
+.mid-night-party{
+    background-image: url('resources/Vectorrr.png');
+    height: 600px;
+    width: 1320px;
+    margin-top: 80px;
+    background-position: center center;
+    margin-left: 259px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.year-logo{
+    width: 320px;
+    height: 400px;
+}
+.Welcome{
+    font-size: 36px;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+
+}
+.mid-para{
+    margin-bottom: 40px;
+    color: #FFFFFF;
+    
+
+}
+.join{
+    color: #FFFFFF;
+    
+}
+
+/* shedule section */
+
+.shedule{
+    text-align: center;
+    margin-top: 80PX;
+    background: linear-gradient(#f3dada, #fcfcfc);
+    margin-left: 259px;
+    width: 1320px;
+    height: 482px; 
+    border-radius: 20px;
+}
+.shedule-content{
+
+    justify-content: center;
+    align-items: center;
+    padding: 140px 0;
+    font-weight: 800;
+    font-size: 26px;
+}
+.join-btn{
+    margin-top: 20px;
+    background-color: #FF0000;
+    border-radius: 5px;
+    border: 0;
+    color: #FFFFFF;
+    width: 157px;
+    height: 56px;
+    font-weight: 800;
+}
+span{
+    color: #FF0000;
+}
+.place{
+    margin-bottom: 10px;
+}
+.night{
+    margin-bottom: 10px;
+    
+}
+/* best offer section */
+.best-offer{
+    margin-top: 80px;
+    display: flex;
+    margin-left: 259px;
+    width: 1320px;
+    height: 463px;
+    justify-content: space-between;
+    padding: 48px 0;
+    
+    
+}
+.image-radius{
+    border-radius: 50%;
+    border: #FF0000 15px solid ;
+    width: 363px;
+    height: 363px;
+}
+.best-offer-para{
+    color: #FF0000;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.coming-soon{
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: #070211;
+}
+.offer-content,.offer-content-2{
+    padding: 50px 0;
+    /* padding: 30px; */
+}
+.Year{
+    color: #FF0000;
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 36px;
+}
+#new-year{
+    width: 140px;
+    height: 140px;
+    margin-top: 40px;
+    
+    margin: 0;
+    padding-top: 30px;
+}
+
+/* holidays section */
+.function{
+    margin-bottom: 15px;
+    color: #070211;
+    text-align: center;
+}
+.holidays{
+    text-align: center;
+    margin-bottom: 15px
+}
+.holidays-para{
+    text-align: center;
+    margin-bottom: 15px;
+    margin-bottom: 15px;
+
+}
+.sale{
+    margin-top: 80px;
+    margin-left: 259px;
+    width: 1320px;
+    height: 987px;
+}
+.holidays-pic{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 220px;
+}
+.Group44{
+    height: 220px;
+    width: 220px;
+    /* border-radius: 50%;
+    border: 10px solid white; */
+    position: relative;
+    left: 115px;
+    
+
+}
+.Rectangle1{
+    width: 300px;
+    height: 100%;
+    
+
+}
+.group75{
+    width: 796px;
+    height: 662px;
+    position: relative;
+    top: 0px;
+    right: 50px;
+    
+}
+.Rectangle2{
+    width: 1320px;
+    height: 229px;
+}
+.group{
+    display: flex;
+    width: 582px;
+    height: 433px;
+}
+.full-holidays{
+    position: relative;
+    bottom: 220px;
+}
+/* <!-- portfolio section --> */
+
+.GIFT-content{
+    text-align: center;
+}
+.best-gift{
+    color: red;
+    margin-bottom: 10px;
+}
+.Awesome{
+    font-size: 36px;
+    font-weight: 800;
+    color: #070211;
+    margin-bottom: 10px;
+}
+.gift-para{
+    color: #070211;
+    margin-bottom: 30px;
+}
+/* portfolio section cart */
+.cart{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+
+}
+.portfolio{
+    margin-left: 259px;
+    margin-right: 259px;
+}
+
+/* subscribe section */
+.subscribe{
+    text-align: center;
+    margin: 0 259px;
+    margin-top: 90px;
+    background-color: #f8eded;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+.message{
+    height: 150px;
+    width: 150px;
+    margin-bottom: 30px;
+}
+.news{
+    margin-bottom: 30px;
+    color: #070211;
+    font-weight: 800;
+    font-size: 36px;
+
+}
+.subscribe-para{
+    margin-bottom: 30px;
+    color: #070211;
+}
+.btn-sub{
+    border-radius: 50px;
+    height: 52px;
+    width: 210px;
+}
+.input{
+    border-radius: 50px 0 0 50px;
+    height: 62px;
+    width: 448px;
+    color: #f8eded;
+    padding: 5px 25px;
+    border: none;
+    
+
+
+}
+input{
+    position: relative;
+    
+    box-sizing: border-box;
+
+}
+input[type="submit"]{
+    position: relative;
+    border-radius: 0 25px 25px 0;
+    height: 62px;
+    width: 160px;
+    left: -5px;
+    text-align: center;
+    border: none;
+    background-color: #FF0000;
+    color: #f3dada;
+    font-weight: 600;
+
+    
+}
